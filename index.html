@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
     <script
-      charset="UTF-8"
-      src="//web.webpushs.com/js/push/ba5700a21f2522c5d96660eda03edbd0_1.js"
-      async
+      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      async=""
     ></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: '35b2de12-4678-488a-8948-8aa83af4e803',
+        });
+      });
+    </script>
+    <!-- <script charset="UTF-8" src="//web.webpushs.com/js/push/ba5700a21f2522c5d96660eda03edbd0_1.js" async></script> -->
   </head>
   <body>
     <div id="root"></div>
