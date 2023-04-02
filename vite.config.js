@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
 
-  //external: ['react-router-dom', 'react-bootstrap'],
+  external: ['react-router-dom', 'react-bootstrap'],
 });
